@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dev Detective</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link href="./st.css" rel="stylesheet">
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+    <!--wrapper-->
+    <div class="wrapper">
+        <!--heading-->
+        <div class="topContent">
+            <h1>DevDetective</h1>
+            <div class="mode">
+                <p DarkMode></p>
+                <button class="modechange">
+                    <div class="modeImg"></div>
+                </button>
+               
+           </div>
+        </div>
+        <!--input valla game-->
+        <div class="username">
+            <div class="one">
+            <img src="assets/images/search-icon.svg" alt="">
+            <input placeholder="Enter GitHub username..." userName required></div>
+            <div class="not_valid">PLEASE ENTER A FIELD</div>
+            
+            <button class="searchBtn">
+                Search
+            </button>
+        </div>
+        <!--div ka main game-->
+        <div class="userInfo">
+            <!--first-->
+            <div class="first">
+                <img src="" alt="" userImg>
+                <div class="user">
+                    <div namme></div>
+                    <a href="" pathLink target="_blank"></a>
+                    <p bio></p>
+                </div>
+                <div joinDate class="date1">
+
+                </div>
+
+            </div>
+            <!--second-->
+            <div class="second">
+                <!--repos-->
+                <div class="repos">
+                    <p>Repos</p>
+                    <p dataRepo></p>
+                </div>
+                <!--followers-->
+                <div class="followers">
+                    <p>Followers</p>
+                    <p dataFollowers></p>
+                </div>
+                <!--following-->
+                <div class="following">
+                    <p>Following</p>
+                    <p dataFollowing></p>
+                </div>
+            </div>
+            <!--third-->
+            <div class="third">
+                <div class="userData">
+                    <img src="assets/images/location-icon.svg" alt="">
+                    <p dataLocation></p>
+                </div>
+                <div class="userData">
+                    <img src="assets/images/website-icon.svg" alt="">
+                    <a dataWebsite target="_blank"></a>
+                </div>
+                <div class="userData">
+                    <img src="assets/images/twitter-icon.svg" alt="">
+                    <p dataTwitter></p>
+                </div>
+                <div class="userData">
+                    <img src="assets/images/company-icon.svg" alt="">
+                    <p dataCompany></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
